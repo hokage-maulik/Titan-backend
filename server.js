@@ -17,6 +17,9 @@ app.use("/user",router)
 app.use("/product",prouter)
 app.use("/category",crouter)
 app.use("/cart",cartrouter)
+app.get("/",(req,res)=>{
+    res.send("Welcome to the Titan")
+})
 
 
 
